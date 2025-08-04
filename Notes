@@ -1,1 +1,77 @@
+How to create a immutable class in java?
+How many ways to create a object?
+compileTimePolymorphism and RunTimePolymorphism?
+can we change return type of overloading method?
+FunctionInterface having single abstract method?
+
+Q. Why default method and where to use it?
+Answer: Before Java 8+, adding new methods to an interface broke all implementing classes, but the presence of default methods allow adding new methods to the interfaces without 
+breaking the existing behavior of the implementing classes(Backward Compatibility).
+
+Q. Insertion order and doesn't allow duplicates -> which collection will you prefer?
+Answer: LinkedHashSet because it maintains insertion order, doesn't allow duplicates and TC of add/search/remove is O(1) in average.
+
+Q. What is difference between StringBuilder and StringBuffer and why it was introduced ?
+Answer: StringBuilder vs StringBuffer in Java
+Aspect	          StringBuffer	                            StringBuilder
+Thread Safety	    Synchronized (Thread-Safe)	              Not Synchronized (Not Thread-Safe)
+Performance	      Slower (due to synchronization overhead)	Faster (no synchronization)
+Introduced In	    Java 1.0	                                Java 1.5 (Java 5)
+Use Case	        Multi-threaded environments	              Single-threaded environments
+
+Why was StringBuilder introduced?
+StringBuffer synchronizes every method (like append(), insert(), etc.), which impacts performance in single-threaded contexts.
+To improve performance for non-thread-safe (single-threaded) operations, StringBuilder was introduced as a faster alternative without synchronization overhead.
+
+How string constant pool works
+Features of java 8 to java 21 with example
+Thread Executer framework
+Threading scenario-based questions
+SOLID principle with example
+Serialization and Deserialization
+Volatile, transit and atomic
+Collection framework interfaces and implementation
+How concurrent HashMap works internally
+When to use Weak HashMap
+Design patterns in details (Singleton, Builder, Façade and Flyweight design pattern)
+What is difference between Interface and Abstract class after introducing default, static and private methods in interface
+Question around introducing default, static and private methods in interface
+How to analyze and fix memory leak issue
+What does the @SpringBootApplication annotation do internally
+Difference between @Restcontroller and @Controller
+What are stereotype annotations and questions around @Bean
+@ConditionOnProperty and @Profile difference
+How to disable a specific auto-configuration class
+What is the difference between RequestMapping and GetMapping
+What are the differences between @SpringBootApplication and @EnableAutoConfiguration annotation
+Question around Spring Boot Actuator
+@ComponentScan
+Dependency injection scenario-based questions
+What is the purpose of the @Configuration annotation?
+What is the purpose of the @Bean annotation?
+What is the purpose of the @Autowired annotation?
+What is the purpose of the @Value annotation?
+What is the purpose of the @Profile annotation?
+Why to use Microservices
+Microservices architecture
+Design patterns of Spring Boot microservices
+How do Microservices Communicate with each other
+When to use Synch and Async communication of microservices
+What if downstream microservice goes down
+gRPC vs RestTemplate communication
+Load balancing client and Server side
+Hazalecast and reddis cache questions
+Deployment technique of microservices in current project
+Kafka and Rabbit MQ difference and when to use which scenario-based questions
+Axon framework in details
+JPA scenario-based questions
+Query optimization scenario-based questions
+Pagination using JPA
+Indexing in SQL
+Partition of table in SQL
+How to fix slow query execution scenario based on performance tunning
+@Scheduled and Shedlock
+
+
+
 
