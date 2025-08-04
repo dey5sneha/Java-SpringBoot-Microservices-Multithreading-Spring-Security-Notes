@@ -172,16 +172,17 @@ What is the use of @Around in Spring AOP?
 Spring AOP Basics
 What is the Difference Between Static Block and Instance Block?
 Different Life Cycle Phases in Maven
- 
-1. Find and print the sum of all even numbers in a list of integers.(Done)
-2. Convert a list of Strings to uppercase and filter out the ones starting with 'A'.(Done)
-3. Calculate the average salary of employees over the age of 30 from a list.(Done)
-4. Merge two lists of integers into a single sorted list without duplicates.(Done)
+
+Streams:
+1. Find and print the sum of all even numbers in a list of integers.
+2. Convert a list of Strings to uppercase and filter out the ones starting with 'A'.
+3. Calculate the average salary of employees over the age of 30 from a list.
+4. Merge two lists of integers into a single sorted list without duplicates.
 5. Find all transactions in 2011 and sort by value; find all traders from "Cambridge" and sort by name.
-6. Generate 10 random numbers, filter out even numbers, and print odd numbers.(Done)
-7. Group a list of words by length, and print the length along with associated words.(Done)
+6. Generate 10 random numbers, filter out even numbers, and print odd numbers.
+7. Group a list of words by length, and print the length along with associated words.
 8. Find the most frequent element in a list of integers.
-9. Print book titles costing more than $20 and by authors starting with 'J'.(Done)
+9. Print book titles costing more than $20 and by authors starting with 'J'.
 10. Convert a Map<String, Integer> into a sorted list of "key=value" strings.
 11. Find the maximum value in an array of integers using Java Streams.
 12. Count employees with names starting with 'S' in a list.
@@ -1395,4 +1396,5 @@ public class WordFrequency {
         System.out.println(frequencyMap);
     }
 }
+
  
