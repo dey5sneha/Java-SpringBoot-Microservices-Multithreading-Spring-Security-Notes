@@ -1,0 +1,1398 @@
+Git and Version Control System (VCS)
+
+Why VCS?
+What is Git?
+Git Commands
+git branch
+git
+
+Why Functional Interface has only 1 Abstract Method?
+Versioning in Spring Boot
+Failfast vs FailSafe Iterators
+Why is version control important in software development?
+ 
+Java Basics and OOPs Concepts
+ 
+What is OOPS?
+Why OOPS?
+Class and Object
+Primitive Data Types vs Wrapper Classes
+Overloading and Overriding
+Method Overloading vs Method Overriding
+Polymorphism, Inheritance, and Interfaces
+Inheritance
+Abstract Classes vs Interfaces
+Data Hiding and Abstraction
+Object Cloning and Copy Constructor: Shallow vs Deep Copy
+Covariant Return Type
+String, StringBuffer, StringBuilder
+String Intern Keyword and String Pool
+Can you overload a main method?
+Method Hiding and Variable Hiding
+Composition vs Inheritance
+Checked and Unchecked Exceptions
+Unchecked Exceptions vs Errors
+Exception Handling
+Checked and Unchecked Exceptions: Which are recoverable?
+Exception Propagation
+Exception Chaining
+Equals and HashCode Methods
+What is the use of this and super keywords?
+Constructor (This Keyword, Parameterized Constructor, Need of Constructor)
+Static vs Final
+Final vs Static Keywords
+Constructor Overloading and Constructor Coding
+Wrapper Classes: Autoboxing and Unboxing
+What are Wrapper Classes?
+Static Block: When static and non-static methods are in the main method, which method will compile first?
+Transient vs Static
+The this and super() in Constructor
+What is the purpose of super keyword in Java?
+What is the difference between ArrayList and LinkedList?
+What is the difference between String and StringBuilder?
+Can you explain what the Java memory model is?
+What is the purpose of this keyword in Java?
+ 
+Java 8 and Functional Programming
+ 
+What is a Lambda Expression?
+Can we throw an exception in Lambda Expression?
+Functional Interfaces
+Consumer
+Supplier
+Function
+Predicate
+Stream Intermediate vs Terminal Operations
+Lazy Loading in Streams
+What is Effective Final in Lambda Expressions?
+Reduce Operation in Stream
+Do you know about Parallel Stream?
+Optional Class and Its Methods
+Empty Method in Optional
+Streams Coding Example: Filter Even IDs from Person Objects
+Streams: Employee Stream Example (Limit, Filter, and ForEach)
+What is a Method Reference in Java 8?
+What are the differences between map() and flatMap() in Streams?
+What is the difference between collect() and reduce() in streams?
+What is a Supplier in functional programming?
+What is the purpose of Optional class in Java 8?
+What is peek() method in streams?
+ 
+Spring Framework
+ 
+What is the Spring Framework and its core features?
+What is the difference between @Autowired and @Inject in Spring?
+What is Spring IoC container?
+What is a Spring Bean and what are the different scopes of Spring Beans?
+How do you handle transactions in Spring?
+Explain the different types of Spring Beans and their lifecycle.
+What are Spring Profiles and how do you use them?
+What are Design Patterns? (Facade, Factory, Singleton, Strategy)
+What is Circular Dependency in Spring and how to resolve it (@Lazy)?
+Advice, Aspect, and Types of Aspects
+What is PostConstruct and PreDestroy in Spring?
+Spring Security Basics
+Spring Boot: Architecture
+@Bean, @Service, @Controller, @Component: Which is best?
+@Data, @NoArgsConstructor, @AllArgsConstructor
+Bean Lifecycle in Spring
+Spring Boot: Actuator
+What is Actuator in Spring Boot Application?
+Endpoints of Actuator
+What is @PropertySource in Spring?
+ApplicationContext: XML-based Configuration vs Annotation-based Configuration
+Spring Boot and Version Management
+Spring Boot: Request Mapping -> Controller -> Service -> Repository -> Database
+What is @RestControllerAdvice?
+Dependency Inversion Principle in Spring
+ 
+Spring Boot and REST APIs
+ 
+What is the difference between @Controller and @RestController in Spring MVC?
+How does Spring Boot handle exceptions in REST APIs?
+What is the role of the @EnableAutoConfiguration annotation in Spring Boot?
+What is Spring Boot starter?
+What are @RequestMapping and @ResponseBody annotations used for in Spring Boot?
+How can you manage configuration properties in Spring Boot?
+What is Spring Boot's auto-configuration mechanism?
+How does Spring Boot handle validation and binding errors?
+What are the advantages of using @RestControllerAdvice in Spring Boot?
+Why Functional Interface has only 1 Abstract Method in Spring Boot?
+What is Idempotent in REST APIs?
+Statelessness in REST APIs
+How to Custom Annotations Work and Target/Retention?
+REST APIs: RequestMapping, PathVariable vs RequestParams
+What is Idempotent API?
+Fail Fast vs Fail Safe Iterators
+Authentication and Authorization in Spring Security
+Microservices: Basics
+Exception Handling in REST APIs
+Spring Boot: Request -> Service -> Repository -> Database Flow
+What is @Bean vs @Service and @Controller?
+  
+Collection Framework and Data Structures
+
+AbstractList
+LinkedList Behavior
+ArrayList vs LinkedList
+Deque vs LinkedList Difference
+HashSet, Vector (Usage and Working)
+Comparator vs Comparable
+Collections vs Collection
+Fail Fast vs Fail Safe Iterators
+Concurrent Modification Exception
+Copy Constructor in Collection Framework
+Why does HashCode and Equals Matter in HashMap?
+ 
+Advanced Java Topics
+ 
+Garbage Collection in Java: Mark and Sweep Algorithm
+Reflection in Java
+What is the use of Default Method in Functional Interface?
+Logging in Java: Levels and Types of Logging
+ACID Properties in SQL
+Exception Handling (Multi-catch blocks, Try-Catch, and Finally)
+What is Serialization and Deserialization?
+Thread Safety and Synchronization
+What is Concurrent Modification Exception?
+ 
+Testing and Mocking
+ 
+Mockito: How it Helps in Unit Testing?
+Junit Annotations and Methods
+BeforeAll vs BeforeEach
+Mockito – How it Helps
+Test-Driven Development (TDD)
+JUnit: Unit Testing in Java
+Mockito: Mocking Dependencies in Unit Tests
+ 
+Marker Interfaces and Why to Use Them?
+Immutable Classes in Java
+What is the use of @Around in Spring AOP?
+Spring AOP Basics
+What is the Difference Between Static Block and Instance Block?
+Different Life Cycle Phases in Maven
+ 
+1. Find and print the sum of all even numbers in a list of integers.(Done)
+2. Convert a list of Strings to uppercase and filter out the ones starting with 'A'.(Done)
+3. Calculate the average salary of employees over the age of 30 from a list.(Done)
+4. Merge two lists of integers into a single sorted list without duplicates.(Done)
+5. Find all transactions in 2011 and sort by value; find all traders from "Cambridge" and sort by name.
+6. Generate 10 random numbers, filter out even numbers, and print odd numbers.(Done)
+7. Group a list of words by length, and print the length along with associated words.(Done)
+8. Find the most frequent element in a list of integers.
+9. Print book titles costing more than $20 and by authors starting with 'J'.(Done)
+10. Convert a Map<String, Integer> into a sorted list of "key=value" strings.
+11. Find the maximum value in an array of integers using Java Streams.
+12. Count employees with names starting with 'S' in a list.
+13. Double each value in a list of integers, filtering out results greater than 50.
+14. Count the occurrence of each character in a string.
+15. Convert a list of persons to a map grouping by city with names of people from that city.
+16. Find and print the longest string in a list of strings.
+17. Identify and print the third highest number from an unsorted list of integers.
+18. Transform a list of booleans to 1 for true and 0 for false.
+19. Print the average order amount for all completed orders from a list of orders.
+20. Sum up all integers in a 2D array using Java Streams.
+21. Concatenate all strings from a list into a single string.
+22. Find and print all unique characters in a string.
+23. Return the longest name from a list of names.
+24. Find the highest-scoring player in each sport from a list of players.
+25. Create a frequency map of integers from a list using Java Streams.
+26. Use Java Streams to filter and print all prime numbers from a list of integers.
+27. Given a list of products (each with a name, price, and category), use Java Streams to find the cheapest product in each category.
+29. From a list of scores (doubles), use Java Streams to print all scores that are a new high score, i.e., each score that is higher than all previous scores in the list.
+30. Use Java Streams to calculate the standard deviation of a list of numbers.
+31. Given a list of transactions, each containing an amount and a currency, use Java Streams to sum all transactions in USD.
+32. Write a Java Stream expression to implement a natural language word frequency analyzer: given a list of sentences, find and print the frequency of each word across all sentences.
+33. Use Java Streams to remove duplicates from an array of strings and print the resulting array.
+34. Given a set of student records (name, grade), use Java Streams to find and print the name of the student with the highest grade.
+35. Implement a stream that takes a list of integers, multiplies each integer by 2, and retains only those results that are prime numbers, finally printing out these primes.
+36. Given a list of Person objects, each with properties name, age, and list of skills, use Java streams to print the name of each person who has "Java" as one of their skills.
+37. Write a Java Streams expression to calculate the product (multiplication) of all elements in a list of integers.
+38. Use Java Streams to find the longest string in a list of strings that contains the given substring.
+39. Given a map where each key is a topic and each value is a list of books, use Java Streams to print the total number of books across all topics.
+40. Implement a function using Java Streams that checks if all strings in a list are of length greater than 5.
+41. Write a Java Streams expression to transform a list of integers into a comma-separated string of their squared values.
+42. Use Java Streams to find the second lowest integer in a list of integers.
+43. Given a list of customer transactions (customerId, amount), use Java Streams to calculate and print the total transaction amount for each customer.
+44. Implement a Java Stream that filters a list of timestamps (Long type), removing any that are from the previous month.
+45. Use Java Streams to split a list of numbers into two lists: one containing multiples of 3, and the other containing all other numbers.
+ 
+Executor Framework 
+Need of security 
+Generate Validate JWT 
+stream fi lambda customeFI Collectors'' pattern principle with example real scenario based question Mocking with MVC MockBean mock- endpoint perform
+ 
+Volatile vs AtomicInteger
+ThreadLocal
+[5/16, 12:45] Sneha Dey: jaise how to configure eureka
+[5/16, 12:45] Sneha Dey: why do we need it
+[5/16, 12:46] Sneha Dey: how load balancer works...(Round Robin aur kuch b algos hote h)
+[5/16, 12:47] Sneha Dey: and then jitna sb tha client server registry locad balancer kya hota hai kasie krte hai
+[5/16, 12:47] Sneha Dey: and kaise ek service ko dusre se connect krana
+[5/16, 13:22] Sneha Dey: Concurrency vs parallelism
+[5/16, 13:44] Sneha Dey: Java memory model
+[5/16, 14:02] Sneha Dey: Java ExecutorService
+[5/16, 15:13] Sneha Dey: Introduction
+[5/16, 15:13] Sneha Dey: Types of pools
+[5/16, 15:14] Sneha Dey: Constructor and lifecycle methods
+[5/16, 15:14] Sneha Dey: Callable/Future
+[5/16, 15:35] Sneha Dey: Java Asynchronous Programming
+[5/16, 16:06] Sneha Dey: Locks condition class
+[5/16, 16:11] Sneha Dey: CompletableFuture
+[5/16, 16:12] Sneha Dey: Coroutines java fibers in project loom
+ 
+[5/18, 14:55] Sneha Dey: Dynamic method dispatch
+[5/18, 15:57] Sneha Dey: How to test private methods of your application
+[5/26, 09:04] Sneha Dey: 1) What is OOPs? What do you know about oops? 2) What are Java8 features? Open your project and show where you have used Java8 features? 3) Java17 features 4) How to write functional interfaces in lambda expression? 5) Types of constructor: copy, parameterised, default, no-args 6) Difference between default vs no-args constructor 7) LinkedList vs ArrayList(Arraylist implements random access) 8) Terminal operations and intermediate operations 9) How can we use optionals withs stream api 10) Final, Finally, Finalize 11) What are JUnit annotations you used in your project? 12) Mockito annotation you used in your project? 13) Use of creating a @mock. 14) What does inject mock does? 15) Transitive dependency All the starter dependencies like pom.xml 16) What do you write in the pom.xml file? 17) How to exclude a dependency explicitly? 18) git rebase 19) git merge 20) git blame 21) git squash 22) git fast forward merge 23) git merge vs git fast forward merge 24) How to resolve merge conflict? 25) ACID properties 26) How can we achieve ACID properties in a project? 27) Why JWT token is used? 28) Explain JWT token. 29) Basic flow of spring security. 30) How authentication manager knows wheather the credentials are correct or wrong? 31) Why we have principle in security context? 32) Authorization vs Authentication 33) What are the HTTP methods you used in your project? 34) 401 vs 403. 35) Exception Hierarchy 36) @Controller vs @RestController 37) Query parameters 38) git branching strategy 39) Feature based and Trunk based 40) What design pattern you used in your project? 41) What repositories you used in your project? 42) CRUD vs JPA 43) Other repositories 44) How you communicate between services 45) Why you need logging? What logging tools you used? 46) API versioning 47) How did you manage shared configuration? Why do we need shared configuration? 48) Microservices architecture you used 49) How to allow CORS in your project? 50) @CrossOrigin: What will happen if we do not use it? 51) What does is cross-origin restrict? Why we need to use it(csrf)? 52) @Query what does it do 53) How can you differentiate between native query and jpql query while writing a query using @Query 54) which one to used to best? 55) in jpql we only query entities 56) JPQL and SQL queries(DDL, DML, DCL) 57) Springboot starters(Web, Test) 58) Springboot vs Spring 59) ComponenetScan vs EnableAutoConfiguration 60) What are HTTP methods 61) PUT vs PATCH 62) Actuators 63) Springboot profiling 64) What is autowiring(@autowired)? 65) @Qualifier 66) @primary 67) Constructor based vs Setter based injection. How can you achieve it apart from @autowired? 68) How can you achieve contructor injection without using @autowired over the constructor?- @requiredargsconstructor 69) Can we use @RequiredArgs , @NoArgs and @Allargs constructor together? 70) ALL and required can be together, no and all, no and required can not be used together 71) @Data 72) Hashcode and equals contract 73) HashMap internal working 74) Method overloading and method overriding 75) Records 76) What is entity? 77) Types of keys 78) Types of constraint? 79) Immutable classes. How can you create them? 89) Optional 90) Of Vs OfNullable 91) SOLID 92) Can we use non-static field in singleton(No)? Why? 93) JVM and Architecture of JVM 94) Class Loader 95) Custom annotations 96) Load balancing 97) Circuit Breaker 98) API Gateway 99) Each dependency in your project 100) What was added in string in Java 11?(strip) 101) POST and PUT method in project and flow in project. 102) Volatile keyword in multithreading. 103) Execute how to work with classes. 104) JWT token format(bcrypt algorithm) 105) Bearer 106) MockMvc 107) MockMvc.perform 108) Why we use method references?
+[5/26, 09:05] Sneha Dey: 109) Gradle 110) checkout, push, pull, stash 111) Where is the staging area located in your pc 112) git ignore
+[5/26, 09:06] Sneha Dey: 113) Richardson maturity model 114) aapplication.properties file 115) mapping 116) what does maped by do
+[5/26, 11:45] Sneha Dey: Fi that takes nothing gives nothing
+[5/26, 11:47] Sneha Dey: Slf4j
+[5/26, 11:48] Sneha Dey: Which class is it taking I to consideration
+[5/26, 22:00] Sneha Dey: Wildcard Type	Allowed to Add?	Allowed to Read As	Use Case
+<?>	No (only null)	Object	Unknown type
+<? extends T>	No (only null)	T	Read-only, covariance
+<? super T>	Yes (of type T or subtype)	Object	Write-only, contravariance
+ 
+[5/28, 13:10] Sneha Dey: Aditya raj
+->difference between oops and functional programming
+->is java fully objects oriented
+->how is it platform independent
+->deep dived into jvm,jre,jdk
+-> class loader,types,what do they do,custom loaderr
+->how are class loader linked like parent and child and he asked many questions
+IF YOU SAY YOU ARE NOT COMFORTABLE WITH THE TOPIC HE WILL SKIP AND ASK NEXT QUESTIONS
+->showed 7 to 8 code snippets a bit depth
+->asked me to tell about 4 pillars and explain
+->he asked more about static keyword like placed it in differnet places
+->diffeneced between differenet collections 
+->write custom exceptions
+->hashcode and equals contract
+->he asked few conceptional questions on hashcode
+-> asked simple coding questions on collections
+->fastest accessing collections comapation
+->optional he asked methods
+->askes me to write supplier function example
+-> asked a simple streams question
+->singletone early code
+->dip explantion
+ONLY LEFT WITH LAST 20MIN
+->sleep vs wait
+->notify and notify all 
+He asked few more i dont remember
+->spring di,qualifier,primary,autowire,ioc
+-> asked me to tell jpa annotations and explain
+->asked me to tell 5 springboot annotations and explain
+->@profile
+->explain work flow of feign client 
+-> explain workflow of spring security jwt
+-> asked few git commands
+[5/30, 14:08] Sneha Dey: Jvm ,JDK, Jre  memory related.. 4 pillars of oops , all about hashcode and equals contract...
+  2. Array list and hash map when will u use .
+  3. Method signatures both access modifiers  in overriding and overloading.
+4.  Copy constructor  ,this,super ,new keywords.
+5. No git and maven
+6. Spring security flow
+7.Jwt authentication
+8.Sleep ,join , code ,fork join pool, executors framework ,   snippets in multi threading and life cycle of thread.
+9.Microservices and monolithic all pros and cons..
+10.Liskov substitution and dependency inversion..
+ 
+[5/30, 18:29] Sneha Dey: Interviewer :ashutosh sharma
+jdk vs jvm jvm architecture streams fliter even numbers , square them and fins sum
+what are intermediate and terminal operations examples of stateless and stateful operations reduce syntax
+Difference b/w notify and notifyall
+diff between wait and sleep - threads diff between run method and start method tell about executor framework what is callable, why callable ? in how many ways
+Why do need functional interface, why lambdas,why method references, implement construcor reference.
+optionals example of a many to one mapping what is need of wrapper classes what are parallel streams string builder vs string buffer
+can static method access non static variables is static inner class allowed and examples of such use cases
+why method overloading
+What is constructor overloading and what is runtime polymorphism.
+why do we need object oriented programing what is o and i in SOLID why were private static methods introduced in interfaces what is default keyword what is encapsulation dry,
+All solid principles , kiss, yagni
+are comments good or bad in code, examples of comments in both cases where they are useful and not useful why is good naming convention important why do we do unit testing all annotations of junit and Mockito almost can we test private methods can we mock static methods what is spy and stub assertion types in junit can exceptions be tested what is git why do we need branching strategies in git what is git cherry pick what is maven maven lifecycle maven build lifecycle important maven commands verify function in testing explain singleton design pattern fastest data structure to insert, delete, access collection interface hierarchy and exceptions hierarchy
+what all interfaces queue implements what is lifo how is hashmap internally implemented difference between hashmap and hashtable search time complexity of an array list java 8 features
+Code snippets related to try and catch
+finally block what it is and why used what is treemap does treemap allow null and why ? how is linked list internally stored and how is data stored inside a linked
+Asked to implement arraylist and linkedlist
+list bean scopes when is new what is IoC what does it do ?
+What is XML configuration , java based , annotation based.
+Springboot annotations.
+design patterns used in microservices horizontal vs vertical scaling differences monolith and microservices when would you prefer to use monolithic architecture how do services communicate with each other is feign communication synchronous or asynchronous what is eureka what is jpa repository and all its annotations
+what is response entity
+what do we need dto when we have entity what is path variable ? implement an api with query parameters
+What is adapter , what is observer,
+asked me to show my project
+[5/30, 18:49] Sneha Dey: Commit ,  
+Merge , rebase
+Jvm explain
+Delegation of classloaders
+Abstract
+Static   
+Abstract class has inner class ?
+In what scenarios you will create checked and at what time you will create uncheck?
+Why hashcode is important
+Comparator vs comparable? Both are functional interface?
+Types of variable scopes.
+Boxing unboxing
+Methods of string api
+What is intern method
+Solid principal
+Internal implementation of linkedlist
+Hashmap internal implementation
+To access ,delete ,put which collection is best?
+Fail fast and fail safe?
+Concurrent modification in iterator?
+What is a functional interface?
+Leat frequent character from string list?
+What is spring
+What is ioc
+Diff between springboot and spring core
+ 
+1. Version Control System (Git)
+2. What is VCS? 
+3. Why is version control important?
+4. What is Git? 
+5. Git vs GitHub
+6. Git basics: working directory, staging area, local/remote
+7. Git commands: git init, git clone, git add, git commit, git push vs git pull, git fetch, git rebase, git merge, git cherry-pick, git branch, git checkout, git log
+8. Scenario: How to pull changes from remote?
+9. Rebase vs merge
+10. Difference between fetch and pull
+ 
+Java Basics and OOPs Concepts
+1. What is OOPS? Why OOPS?
+2. 4 Pillars: Abstraction, Encapsulation, Inheritance, Polymorphism
+3. Class and Object
+4. Static vs Final
+5. This vs Super
+6. Primitive vs Wrapper types
+7. Autoboxing/Unboxing
+8. Object Cloning: Shallow vs Deep
+9. Copy Constructor
+10. Method Overloading vs Overriding
+11. Covariant return types
+12. Variable hiding and Method hiding
+13. Constructor basics: Overloading
+14. Use of this/super
+15. static blocks vs instance blocks
+16. String, StringBuffer, StringBuilder, String intern, String pool
+17. Can we overload main()?
+18. == vs equals()
+19. Purpose of this and super
+20. Composition vs Inheritance
+21. How many ways to create objects in Java?
+22. Diamond operator in Java
+ 
+Exception Handling
+1. What is exception handling?
+2. Checked vs Unchecked vs Errors
+3. Which are recoverable?
+4. Exception propagation and chaining
+5. throws vs Throwable
+6. Multi-catch, Try-Catch-Finally
+7. Try-with-resources
+8. Custom exceptions
+9. ClassNotFoundException vs NoClassDefFoundError
+ 
+Java Collections Framework
+1. Collection vs Collections
+2. Collection hierarchy
+3. List vs Set vs Map
+4. ArrayList vs LinkedList vs Vector
+5. Deque vs LinkedList
+6. HashSet vs TreeSet
+7. Stack replacement in Java
+8. Map types: HashMap, TreeMap, LinkedHashMap
+9. HashMap: Internal working
+10.Collision handling
+11.Red-black tree in buckets
+12.FailFast vs FailSafe Iterators
+13.ConcurrentModificationException
+14.Iterator vs ListIterator
+15.Comparator vs Comparable
+16.Collections.unmodifiableList vs Arrays.asList vs List.of
+17.Copy Constructor in Collections
+ 
+Java 8 & Functional Programming
+1. Lambda expressions
+2. Functional interfaces: Predicate, Consumer, Supplier, Function
+3. Stream API: Intermediate vs Terminal
+4. map() vs flatMap()
+5. collect() vs reduce()
+6. peek(), distinct(), limit(), filter()
+7. Parallel stream
+8. Reduce operation
+9. Effective final in lambdas
+10.Optional class:
+11.orElse(), empty()
+12.Method reference
+ 
+Streams coding:
+1. Sum of squares of unique odd numbers in List<List>
+2. Employee example: filter, limit, forEach
+3. Can we throw exception in lambda?
+ 
+JVM & Garbage Collection
+1. JVM architecture: Classloader, Method area, Heap, Stack, Metaspace
+2. Classloader types
+3. JIT compiler
+ 
+Garbage Collection:
+G1, Serial, CMS, etc.
+Stop-the-world
+Why is heap important?
+What is Metaspace?
+ 
+Design Patterns & Principles
+What are design patterns?
+Singleton (eager/lazy/double-check)
+Builder vs Decorator vs Strategy vs Bridge
+Real-world scenarios (non-pizza, non-coffee)
+SOLID principles:
+Dependency Inversion, Interface Segregation, DRY, Liskov
+Cyclomatic complexity
+ 
+Spring Framework (Core + Boot)
+What is Spring? Why widely used?
+Spring Core vs Spring Boot
+How to create a bean
+Bean lifecycle
+Annotations: @Component, @Service, @Repository, @Bean
+Bean Scopes
+1. Profiling
+2. What if @Service is used instead of @Repository?
+3. Singleton bean per JVM
+4. @Autowired, Dependency Injection
+ 
+Spring Boot Specific Topics
+ 
+1. DTO and Controller examples
+2. Create GET mapping with List input/output
+3. Modify a field in DTO list to uppercase before returning
+4. Save list of objects to DB
+5. Controller to Service to DAO layer flow
+6. Handle invalid JSON in request
+7. Response structure and HTTP codes
+8. Access application.properties variables in code
+ 
+Spring AOP
+1. Basics of Spring AOP
+2. Use of @Around, @Before, @After
+ 
+REST API & Web
+1. What is REST API?
+2. Response in XML instead of JSON
+3. Richardson Maturity Model
+4. GlobalExceptionHandler and best practices
+5. Controller advice
+6. Status codes and error handling
+ 
+Maven
+1. What is Maven? Why use it?
+2. pom.xml: dependencies, plugins
+3. Maven Lifecycle Phases: clean, compile, test, package, install
+4. Maven goals
+5. Repositories: local, central, remote
+6. mvn compile vs mvn clean compile
+ 
+JPA & Databases
+1. JPA: repositories, methods
+2. Save list of objects using JPA
+3. Relational database basics
+4. Unique key vs Primary key
+5. ACID properties
+6. Isolation and its types in Spring
+ 
+Testing & Mocking
+1. JUnit basics: Annotations (BeforeAll vs BeforeEach)
+2. Mockito: mock dependencies
+3. TDD (Test Driven Development)
+4. Marker interfaces: Why and where to use
+ 
+Advanced Java
+1. Reflection
+2. Serialization & Deserialization
+3. Thread safety & synchronization
+4. Immutable classes
+5. Functional vs OOP
+6. Custom classloader use cases
+7. Static causing hiding
+8. Generics and diamond operator
+9. ? in generics and bounded types
+10.Stack and Deque operations
+11.Replacement for Stack in Collection Framework
+ 
+Coding & Problem Solving
+Binary Search: First occurrence
+Stream problems
+Filter even IDs from person objects
+Sum of squares in List<List>
+Clean code in given snippet
+Frequent deletion: LinkedList vs ArrayList
+HashMap get() in collision scenario
+All questions compiled of Mid Level Assessment
+Sriganesh Sureshkumar
+Software Engineer
+ 
+@mock vs spy vs inject mocks
+Junit
+interface segrigation principle
+spring sec
+JWT token
+git commands , merge vs rebase
+Hash code , equals.
+genrics code
+String intern method
+list vs set
+maven vs gradle
+streams palindrome
+project patterns , principles , clean code
+JPA flow
+ACID prop
+for prim key
+spring vs boot
+microservices in project
+git merge vs rebase
+ 
+Intro
+Project just explanation
+Sorting algos time complexity:
+Merge sort
+Insertion sort
+Selection sort
+Bubble sort
+quick sort
+ 
+What are all the searchings available:
+Linear search O(n)
+Binary search -> predefined condition for binary O(log n)
+What is minimun spanning tree
+real time example for stack and queue
+ 
+DSA-search in a sorted 2d matrix , reverse the string I/p: Epam Java o/p : Java Epam
+Java8-intermediate , terminal operators,employee max salary , no of male and female employees, sort male employees based on name
+OOPS-what do u know about oops
+default,static methods
+Different types of constructors
+Exceptions hierarchy - checked,unchecked
+difference between final , finally and finalize
+Collections hierarchy
+diff btwn arraylist nd linkedlist . In which conditions which collection is better
+How do you convert a stream to optional
+What are clean code principles
+What are the patterns used in project
+How do you implement singleton ->methods
+SOLID principles
+static keyword
+How to exclude and include dependencies
+command to build and test
+String API methods
+what are generics
+what is junit , Mockito annotations
+RDB -> DIFFERENT TYPES OF CONSTRAINTS , what is normalization
+      JPA annotations -> @Entity , @Table ,@OneToOne
+Spring -> what is the difference between @Controller and @RestController
+      -> what is query params
+      -> what is @GenerationType
+      -> Status codes 200,201,401,403
+      -> Difference between 401 and 403
+Microservices -> what is APIGateway
+              -> what is loadbalancing
+	      -> circuit breaker pattern
+             -> git branching strategies
+ 
+opps examples plus implimentation
+functional interfaces
+super keyword implementation where we use
+list vs set
+ 
+hashmap internal
+design patterns builder and what used in project
+how do you achieve clean code, maven why we use how we use
+unit test cases mocking and JUnit differences what is inject mock 
+exceptions handling can be done in how many ways, starting project, security , micro services service registry api gateway, types of http methods.git commands used in project. Streams - List of teachers, in which we have List of subjects ,print unique subjects.
+ 
+how do you implement basic security
+how to create immutable class
+throws keyword
+Flatmap list of teachers
+Try,catch
+Functional interface
+Super keyword implementation
+List ser difference, hashmap working
+Null values
+Design patterns builder
+Clean code principles
+Mave, mockito, junit difference, inject mock
+Exception handling ways
+Project
+What is authentication, authorisation ,apigateway
+List of teachers name, subjects print unique subject
+Annotations
+What is entity, foreign key
+Git commands
+Generics methods
+Immutable class
+Throws keyword ki multiple throws vadocha
+ 
+What arae the benefits of OPP
+ 
+Do comparator and comparable code
+ 
+Methohd overloading and method overrriding code snippet
+ 
+Every collection and there difference
+ 
+HashMap internal working
+ 
+Hash Code and equals contract
+ 
+String constant pool
+ 
+Literal string, new keyword
+ 
+Difference between AL and LL
+ 
+Queue DS
+ 
+FlatMAp(three lists, colours name,)
+ 
+Count duplicates using entrySet and streams
+ 
+MicroServices
+ 
+ 
+GlobalExceptionHandler
+ 
+static and final
+ 
+Immutable class(how to make)
+ 
+Ctr overloading
+ 
+try with resources
+ 
+try,catch,finally different scenarios
+ 
+Benefits of Springboot
+ 
+@ExceptionHandler(method level/class level)
+ 
+@RestControllerAdvice (method/class)
+ 
+Different annotations
+ 
+what oops are used in the project
+How?
+ 
+two pair sum
+ 
+ 
+Trunk-based vs. Feature-based Development (harness.io)   
+ 
+second largest element
+design patterns : real time scenario
+relational database: indexing ACID properties
+core java oops
+scenario based questions
+collections :theatre question
+ 
+int arr1[] = {1, 34, 3, 98, 9, 76, 45, 4};// output is: 998764543431
+Harness: AI-Native Software Delivery Platform
+Enhance DevOps with AI-Native CI/CD, feature flags, chaos engineering, and cloud cost management to secure & streamline software delivery.
+ 
+1) JVM and GC
+2) What is JVM architecture 
+3) What is class loader 
+4) Types of class loaders
+5) JIT compiler 
+6) Why is heap important ( Follow up- then what is use of metaspace or method areas)
+7) What is GC(Types of GC) 
+8) What is Stop the world pause
+9) Method Overloading and overriding then there was a scenario based question that suppose you have same method with same signature but different return types in same class, then will it be a case of overloading or not?
+Then went to collections, what is collection class, what are it's static methods, what is collection framework hierarchy, Internal working of hashmap and linkedlist, difference between collections.unmodifiableList, Arrays.asList and List.of
+What is collision
+What is the time complexity of the map when red black balanced tree comes into picture
+Also asked what is iterator and it's types explain
+What are features of java8, Before java8 how did we use to perform operations, What is method reference and examples of method reference and lambda expression, streams hands on(three questions)
+Went on to spring then
+What is spring, how to create bean, bean lifecycle, RestAPI, Richardson model, Design patterns, decorator and bridge pattern and SOLID principles
+Also asked what is Isolation in ACID and two levels of isolation in spring
+ 
+OOPS- Abstraction, how's it achieved? Polymorphism types-implement, super keyword, Is it necessary to have exact same return type in method Overriding?
+Contract between hashCode and equals, HashCollision
+Default methods in Interface
+throws vs throwable , specific exception/ Generic Exception,Collections utility class methods, ArrayList vs LinkedList- scenario (Frequent Deletions/Insertions:LinkedList, Frequent Deletions at the end of list: ArrayList is preferred),
+@FunctionalInterface, lambda vs Method reference , Optional -orElse,
+Git vs GitHub, push vs pull, rebase, Maven-pom how it works?, Spring core vs Boot,
+JPA methods, Relational databases, Unique key vs Primary key.
+REST API- response in xml instead of json,
+give scenario for Strategy , Decorator, Builder Patterns.
+ISP,DRY- what if not followed?
+Scenarios or Examples were asked for most of the topics.
+Coding: Streams- Find sum of squares of unique odd numbers in a List<List<Integer>>
+Clean code changes in a code snippet
+DSA- Binary Search for first occurrence
+ 
+Git: Merge, rebase, local repo, fetch, pull
+- Java:
+- HashMap: internal working
+- JVM: loader, custom loader
+- String pool, Integer pool, intern() method
+- HashMap, ArrayList sizing
+- Implementing custom ArrayList, overriding
+ 
+Before asking DSA questions, he asked me to rate myself in problem-solving skills then he asked questions:
+- Quicksort
+- Power of n
+- Kth largest element
+- Queue using 2 stacks
+-do you know Backtracking and recursion and one question on that
+- Spring:
+- Maven
+- Bean
+- StringBuilder, StringBuffer difference, implementing StringBuilder using builder pattern
+- Bean and component
+- OOPS concepts
+- Database:
+- ACID properties
+- Design Patterns:
+- Decorator
+- Strategy
+- SQL queries
+ 
+Started with Core Java
+-OOPs
+-overloading, overriding
+-Exceptions
+-TryWithResources
+-Channing of exceptions 
+-finally
+-Explain generics
+-Explain the use of Static
+-"==" vs equals()
+-object cloning
+ 
+Collections:
+-all interfaces
+-ArrayList vs LinkedList
+-HashSet vs TreeSet
+-Hash contract
+ 
+Only strategy patten theory on requirements, and lazy initialization in Singelton
+ 
+SOLID: Dependency Inversion
+ 
+Streams-
+Hands-on on Collectors
+Transformation of streams
+ 
+SpringBoot
+-controllers
+-annotations
+-how repository work and JPQL 
+-interaction between Controller, Service and repository
+-implement a project and endpoint
+-How to save something to the repository
+ 
+Git 
+-Clone
+-init
+ 
+Maven
+-Goals
+-when is jar created
+ 
+Git- pull vs push, git vs github
+Maven - Lifecycle, mvn compile vs mvn clean compile
+Encapsulation, Polymorphism, In a code snippet, asked to identify whether it is overriding correctly or not?, Abstraction, intern(), Immutable classes, Exceptions, throwable, Comparator, this vs super, where is private constructor used?, Is it necessary to have the method to be called from static block to be static?, ArrayList & LinkedList scenarios, HashCollision, Java 8 features, default methods, Common Functional Interfaces, Optional- orElse(), Generics, SOLID , example for ISP, Singeton Pattern, spring, REST, Bean Scope,
+JPA, ORM, Hibernate, One problem from streams and DSA each.
+ 
+Git - fetch,merge
+Encapsulation , abstraction vs interface
+Design pattern - builder , singleton
+Real use cases of builder pattern 
+can abstract class and interface have constructor
+Comparator vs comparable
+write sql query 
+Stream basic questions
+internal woriking of hashmap
+thowable vs Exception vs error
+Spring boot - GlobalAdvice , Best practice to write RestAPI
+try , finally , finallize
+ 
+Java:
+All Oops concepts.
+Where did you apply these concepts while working on any project.
+Abstraction vs encapsulation.
+Super, this purpose
+Classloader(all types,  all subsystems)
+Why static keyword cause variable/method hiding?
+Arraylist vs Linkedlist.
+Custom comparator.
+ 
+In a hashmap, if a key's bucket has many entries due to hash collisions. When performing get, how does java know which value to return from the bucket?
+ 
+Streams:
+Groupingby
+Distinct
+Stateless and stateful intermediate operations.
+Types of operations.
+What is functional interface? Lambda? Method reference?
+ 
+ 
+ 
+Spring:
+What is spring?
+Why spring is so widely used?
+Do you know any spring replacements?
+What is cyclomatic complexity?
+Ways to create beans.
+What happens if you switch @service with @repository?
+How many singleton instances per jvm instance?
+Richardson model.
+If someone gives a wrong json in post. How would you handle it in controller layer?
+What response would you send back? What will be the reponse structure? Response code?
+ 
+Git:
+Fetch pull rebase cherrypick
+ 
+Maven:
+What is it?
+Advantages?
+ 
+4 pillars of oops
+explain polymorphism and its types
+where all we can use static in java
+can we change the return type while overriding a method
+can interface have default methods 
+what is diamond operator in java
+what is generics 
+what is ? in generics and why and when we use that
+how many ways we can create objects in java
+linkedlist vs arraylist
+hashset vs treeset
+what is stack and where to use , what is its replacement in collection framework we can use
+what are different operations in deque 
+what is functional programming
+how to create functional interface and use it
+ 
+ 
+springboot
+ 
+implement a springboot application with a dto and controller , in controller create a getmapping and receive reuestbody inform of dto and then send it back as response,then asked to modify the function to receive list of dto and return it , then asked to change a field name of dtos in list to upper case and send it as response
+ 
+what are different repositories in data jpa
+different functions provided by different repositories
+how can we save list of objects to database(like in above scenario all the dtos in list should be stored in db)
+how the controller layer connect to service layer and service layer to dao layer etc.
+what is profiling in springboot
+ 
+git
+ 
+what how to get a repository from remote to local
+what is the difference in rebase and merge
+how to get the changes from remote to local
+ 
+maven
+ 
+what are goals in maven
+what are phases in default cycle
+when the .jar is generated
+what are different repositories in mvn
+ 
+how to access the variables from application.properties to your code 
+ 
+Difference between thread and process
+Gave a code and asked what is process and what is thread here
+Thread lifecycle
+What gc does java uses by default
+What is G1?
+Difference between all different gc
+What is local repository, working directory, and staging area in your project, show me.
+What is fetch and pull
+Difference between functional and object oriented programming
+Method Overloading code snippet, what is erasure here?
+Method overriding question-Why does decreased scope from parent to child give error while overriding?
+Give a real world example of custom class loader. Where can we need it?
+Abstract class and interfaces difference(he will keep saying and until he gets the answer he wants)
+Marker interface, what is its function? Why we need it ?
+What is throwable? Is it a marker interface? Where is it implemented?
+Why do we need an interface or a contract?
+Difference between classNotFoundException and NoClassDefFoundError
+What is the time complexity of searching in a list and a map?
+When does a developer use a list instead of a map ?
+Full form of SOLID, what is liskov with implementation.
+A real world example of decorator pattern(dont give pizza or coffee)
+Implement singleton using lazy
+Why double checking? What if I remove the first check and start with synchronised block?
+All the ways you can break singleton.
+What is REST and SOAP?
+What is dependency inversion, dependency injection and inversion of control ?
+Which of these three is a design pattern, design principle and architectural design?
+Problem solving- Find and print all the permutations that can be formed from a given number. Handle repetitions also.
+ 
+ 
+[19:56, 3/22/2025] Aashi Jain: Oops- abstraction, how it is achieved , encapsulation , explain encapsulation with an example, polymorphism explain with example, overloading & overriding
+[19:56, 3/22/2025] Aashi Jain: Protected and default variable scope
+[19:56, 3/22/2025] Aashi Jain: Can other class acess default variable
+[19:56, 3/22/2025] Aashi Jain: What are static variable
+[19:57, 3/22/2025] Aashi Jain: What are immutable classes
+[19:57, 3/22/2025] Aashi Jain: Give some names of immutable classes
+[19:59, 3/22/2025] Aashi Jain: acess specifiers related questions- scenario based, what if we declare a protected variable in parent class and overide in child class as- private variable_names it is correct way?
+[19:59, 3/22/2025] Aashi Jain: In overriding can we change return types
+[19:59, 3/22/2025] Aashi Jain: In overloading what things can change and what cannot change?
+[20:00, 3/22/2025] Aashi Jain: Interface vs abstract class
+[20:00, 3/22/2025] Aashi Jain: Which is best for achieving abstraction and why, explain with real example
+[20:00, 3/22/2025] Aashi Jain: Diamond problem in java
+[20:01, 3/22/2025] Aashi Jain: What is hascode
+[20:01, 3/22/2025] Aashi Jain: What is hash collision
+[20:01, 3/22/2025] Aashi Jain: Don't explain this using map, explain in general terms
+[20:02, 3/22/2025] Aashi Jain: Java 8 features you have used
+[20:02, 3/22/2025] Aashi Jain: What is Functional interface
+[20:02, 3/22/2025] Aashi Jain: Why it has only one abstract class
+[20:02, 3/22/2025] Aashi Jain: What are benefits of functional interface
+[20:02, 3/22/2025] Aashi Jain: Method reference?
+[20:03, 3/22/2025] Aashi Jain: What are private constructor
+[20:04, 3/22/2025] Aashi Jain: Static variables can be reassigned?
+[20:04, 3/22/2025] Aashi Jain: Git rebase command? Git form? Pull vs push
+[20:05, 3/22/2025] Aashi Jain: Git Fork? *
+[20:05, 3/22/2025] Aashi Jain: What is maven?
+[20:05, 3/22/2025] Aashi Jain: Artifacts?
+[20:05, 3/22/2025] Aashi Jain: Idoempotent annotations?
+[20:06, 3/22/2025] Aashi Jain: What is jpa?
+[20:06, 3/22/2025] Aashi Jain: Spring vs spring
+Sriganesh Sureshkumar
+Software Engineer
+ 
+1. Write a Java program to calculate the average of a list of integers using streams.
+Ans: double average = numbers.stream()
+                             .mapToInt(Integer::intValue)
+                             .average()
+                             .orElse(0.0);
+2. Write a Java program to convert a list of strings to uppercase or lowercase using streams.
+Ans: //Convert to Upper-case
+     List upperCaseWords = words.stream()
+                                        .map(String::toUpperCase)
+                                        .collect(Collectors.toList());
+    //Convert to Lower-case
+    List lowerCaseWords = words.stream()
+                                       .map(String::toLowerCase)
+                                       .collect(Collectors.toList());
+3. Write a Java program to calculate the sum of all even, odd numbers in a list using streams.
+Ans: //Sum of even numbers using streams:
+     int evenSum = numbers.stream()
+                          .filter(n -> n % 2 == 0)
+                          .mapToInt(Integer::intValues)
+                          .sum();
+    //Sum of odd numbers using streams:
+    int oddSum = numbers.stream()
+                        .filter(n -> n % 2 != 0)
+                        .mapToInt(Integer::intValues)
+                        .sum(); 
+4. Write a Java program to remove all duplicate elements from a list using streams.
+Ans: List listWithoutDuplicates = listWithDuplicates.stream()
+                                                             .distinct()
+                                                             .collect(Collectors.toList());
+5. Write a Java program to count the number of strings in a list that start with a specific letter using streams.
+Ans: long count = words.stream()
+                       .filter(words -> words.toLowerCase()
+                                             .startsWith(String.valueOf(targetLetter)
+                                             .toLowerCase()))
+                       .count();
+6. Write a Java program to sort a list of strings in alphabetical order, ascending and descending using streams.
+Ans: Ascending:
+     List ascending = strings.stream()
+                                     .sorted()
+                                     .collect(Collectors.toList());
+     Descending:
+     List descending = strings.stream()
+                                      .sorted(Comparator.reverseOrder())
+                                      .collect(Collectors.toList());
+ 
+7. Write a Java program to find the maximum and minimum values in a list of integers using streams.
+Ans: Maximum:
+     Optional max = numbers.stream()
+                                    .max(Integer::compareTo);
+     Minimum:
+     Optional min = numbers.stream()
+                                    .min(Integer::compareTo);
+8. Write a Java program to find the second smallest and largest elements in a list of integers using streams.
+Ans: Second smallest:
+     Optional secondSmallest = numbers.stream()
+                                               .sorted()
+                                               .skip(1)
+                                               .findFirst();
+     Second largest:
+     Optional secondLargest = numbers.stream()
+                                               .sorted(Comparator.reverseOrder())
+                                               .skip(1)
+                                               .findFirst();
+9. Find and print the sum of all even numbers in a list of integers.
+Ans: int sumOfEven = numbers.stream()
+                            .filter(n -> n%2 == 0)
+                            .mapToInt(Integer::intValue)
+                            .sum();
+10. Convert a list of Strings to uppercase and filter out the ones starting with 'A'.
+Ans: List result = input.stream()
+                                .map(String::toUpperCase)
+                                .filter(s -> !s.startsWith("A"))
+                                .collect(Collectors.toList());
+11. Calculate the average salary of employees over the age of 30 from a list.
+Ans: OptionalDouble avgSalary = employees.stream()
+                                         .filter(e - > e.age>30)
+                                         .mapToDouble(e -> e.salary)
+                                         .average();
+12. Merge two lists of integers into a single sorted list without duplicates.
+Ans: List mergeSortedList = Stream.concat(list1.stream(), list2.stream())
+                                           .distinct()
+                                           .sorted()
+                                           .collect(Collectors.toList());
+13. Find all transactions in 2011 and sort by value; find all traders from "Cambridge" and sort by name.
+Ans: List transactions2011 = transactions.stream()
+                                                      .filter(t -> t.getYear() == 2011)
+                                                      .sorted(Comparator.comparing(Transaction::getValue))
+                                                      .collect(Collectors.toList());
+    List cambridgeTraders = transactions.stream()
+                                                .map(Transaction::getTrader)
+                                                .filter(trader -> "Cambridge"equals(trader.getCity()))
+                                                .distict()
+                                                .sorted(Comparator.comparing(Trader::getName))
+                                                .collect(Collectors.toList());
+14. Generate 10 random numbers, filter out even numbers, and print odd numbers.
+Ans: List<Integer> randomNumbers = new Random()
+                                  .ints(10, min, max+1)
+                                  .boxed()
+                                  .collect(Collectors.toList());
+     List evenNumbers = randomNumbers.stream()
+                                              .filter(n -> n%2 = 0)
+                                              .collect(Collectors.toList());
+     List oddNumbers = randomNumbers.stream()
+                                              .filter(n -> n%2 != 0)
+                                              .collect(Collectors.toList());
+7. Group a list of words by length, and print the length along with associated words.
+Ans: Map> grouped = word.stream()
+                                              .collect(Collectors.groupingBy(String::length));
+     grouped.forEach((length, wordList) -> {
+                                         System.out.println(length + ":" + wordList);
+                                           });
+8. Find the most frequent element in a list of integers.
+9. Print book titles costing more than $20 and by authors starting with 'J'.(Done)
+10. Convert a Map<String, Integer> into a sorted list of "key=value" strings.
+11. Find the maximum value in an array of integers using Java Streams.
+12. Count employees with names starting with 'S' in a list.
+13. Double each value in a list of integers, filtering out results greater than 50.
+14. Count the occurrence of each character in a string.
+15. Convert a list of persons to a map grouping by city with names of people from that city.
+16. Find and print the longest string in a list of strings.
+17. Identify and print the third highest number from an unsorted list of integers.
+18. Transform a list of booleans to 1 for true and 0 for false.
+19. Print the average order amount for all completed orders from a list of orders.
+20. Sum up all integers in a 2D array using Java Streams.
+21. Concatenate all strings from a list into a single string.
+22. Find and print all unique characters in a string.
+23. Return the longest name from a list of names.
+24. Find the highest-scoring player in each sport from a list of players.
+25. Create a frequency map of integers from a list using Java Streams.
+26. Use Java Streams to filter and print all prime numbers from a list of integers.
+27. Given a list of products (each with a name, price, and category), use Java Streams to find the cheapest product in each category.
+28. Write a Java Streams expression to flatten a list of lists of integers into a single list of integers.
+29. From a list of scores (doubles), use Java Streams to print all scores that are a new high score, i.e., each score that is higher than all previous scores in the list.
+30. Use Java Streams to calculate the standard deviation of a list of numbers.
+31. Given a list of transactions, each containing an amount and a currency, use Java Streams to sum all transactions in USD.
+32. Write a Java Stream expression to implement a natural language word frequency analyzer: given a list of sentences, find and print the frequency of each word across all sentences.
+33. Use Java Streams to remove duplicates from an array of strings and print the resulting array.
+34. Given a set of student records (name, grade), use Java Streams to find and print the name of the student with the highest grade.
+35. Implement a stream that takes a list of integers, multiplies each integer by 2, and retains only those results that are prime numbers, finally printing out these primes.
+36. Given a list of Person objects, each with properties name, age, and list of skills, use Java streams to print the name of each person who has "Java" as one of their skills.
+37. Write a Java Streams expression to calculate the product (multiplication) of all elements in a list of integers.
+38. Use Java Streams to find the longest string in a list of strings that contains the given substring.
+39. Given a map where each key is a topic and each value is a list of books, use Java Streams to print the total number of books across all topics.
+40. Implement a function using Java Streams that checks if all strings in a list are of length greater than 5.
+41. Write a Java Streams expression to transform a list of integers into a comma-separated string of their squared values.
+42. Use Java Streams to find the second lowest integer in a list of integers.
+43. Given a list of customer transactions (customerId, amount), use Java Streams to calculate and print the total transaction amount for each customer.
+44. Implement a Java Stream that filters a list of timestamps (Long type), removing any that are from the previous month.
+45. Use Java Streams to split a list of numbers into two lists: one containing multiples of 3, and the other containing all other numbers.
+porkbun.com | parked domain
+ 
+Microservices:
+1. Explain how Eureka maintains service health when a service doesnot send a heartbeat what will happen.
+Ans: Eviction period more than 85% of the service send the heartbeat 
+2. Create a Feign Client with retry 3 attempts and backoff 1 second for a payment service.
+3. How the API Gateway implement a circuit breaker in microservices.
+4. What is circuit breaker? 
+   What services/advantages does circuit breaker design pattern gives?
+   Half open, open, closed state.
+   Fallback mechanism
+5. What is an API Gateway? What advantage does it give?
+6. What is the process/interaction of API Gateway?
+7. What is service registry?
+8. What is the advantage of microservice architecture?
+9. SAGA pattern
+10. If there is an exception occurred in microservice A which is using a particular API of B. There is some exception in microservice B which gives result in microservice A. How would you handle this error?
+11. Feign Exception
+12. CQRS pattern
+13. Service registry, Eureka server, Load Balancer(types)
+14. Implementation
+15. Feign Client and Retry
+16. Fallback mechanism
+ 
+Springboot:
+1. Implement a rest API that gets user and return list of user if user not found then throw exception
+2. @Service and @RestController
+3. @SpringBootApplication annotation internal work
+4. Can we mock static methods?
+5. Types of injection(code)
+6. @Autowired how it does constructor and field, differentiate
+7. How to change port number of tomcat programmatic way?
+8. Implement a POST mapping that accepts JSON and validates the input using @valid annotation and how binding occurs.
+9. Binding result
+Different types of bean scopes
+Generally we use singleton but when will you use prototype
+How will you write a native query
+Join address and user table write in JPA repository to get user
+@Bean vs @Component
+Use a rest template with the help of @Bean
+How springboot autoconfigures a data source and what properties you need to write in application.properties
+(springboot data jpa helps us to configure)
+HATEOAS
+Implement a soft delete in jpa with the help of where clause 
+what is the n+1 problem in jpa(we use queries to resolve it)
+JPQL query
+ 
+Testing and Logging:
+How many types of testing?
+Testing and Mocking write tests using @mock, @injectmock, @test
+Differences between JUnit 4 and 5
+Why mocking came into picture?
+Assertion vs Assumption
+When to use Mockito and when to use junit?
+Hamcrest
+First principle in testing
+Triple A principle in testing
+Stubbing vs Mocking(Code wise how you will do)
+When and then is favourite Mockito to mock
+Black box, white box, red box testing
+ 
+Collections:
+Write a code to convert Arraylist to LinkedList and vice versa
+Implement a stack using array dequeue with push pop and peek operation. Why not use stack class here?
+Internal implementation of hashset
+Relation between equals and hashcode
+When will you use identity hashmap over hashmap
+Write a custom iterable class that generates even numbers upto n
+LRU cache(How to use it with linkedhashmap)
+CopyOnArray internal implementation
+Real world example of all collection
+Custom classes
+Find a non-repeatable character in a string using linkedhashmap
+Custom FI
+Balancing paranthesis(stack)
+Implement queue using stack
+ 
+Multithreading:
+Creation of thread
+Lifecycle,
+Executor service
+Threadpool
+How do we manage threadpool
+ 
+Core Java:
+Why utility classes are made final by default?
+How does string builder improve performance over string concatenation when we are using a loop?
+Autoboxing/Unboxing code
+Convert this anonymous class to lambda
+Write a predicate to check if it is a palindrome and filter a list
+Replace lambda by method reference
+even odd
+write a comparator to sort and reverse
+how to use function.identity to remove redundancy
+why can lambda only access effectively final variable
+ 
+Maven:
+What is default directory?
+Three directory: source, target, pom.xml what they contain
+Lifecycle
+Transitive dependency
+Nearest definition rule in maven
+Sriganesh Sureshkumar
+Software Engineer
+ 
+1) What is OOPs? What do you know about oops?
+2) What are Java8 features? Open your project and show where you have used Java8 features?
+3) Java17 features
+4) How to write functional interfaces in lambda expression?
+5) Types of constructor: copy, parameterised, default, no-args
+6) Difference between default vs no-args constructor
+7) LinkedList vs ArrayList(Arraylist implements random access)
+8) Terminal operations and intermediate operations
+9) How can we use optionals withs stream api
+10) Final, Finally, Finalize
+11) What are JUnit annotations you used in your project?
+12) Mockito annotation you used in your project?
+13) Use of creating a @mock.
+14) What does inject mock does?
+15) Transitive dependency
+All the starter dependencies like pom.xml
+16) What do you write in the pom.xml file?
+17) How to exclude a dependency explicitly?
+18) git rebase
+19) git merge
+20) git blame
+21) git squash
+22) git fast forward merge
+23) git merge vs git fast forward merge
+24) How to resolve merge conflict?
+25) ACID properties
+26) How can we achieve ACID properties in a project?
+27) Why JWT token is used?
+28) Explain JWT token.
+29) Basic flow of spring security.
+30) How authentication manager knows wheather the credentials are correct or wrong?
+31) Why we have principle in security context?
+32) Authorization vs Authentication
+33) What are the HTTP methods you used in your project?
+34) 401 vs 403.
+35) Exception Hierarchy
+36) @Controller vs @RestController
+37) Query parameters
+38) git branching strategy
+39) Feature based and Trunk based
+40) What design pattern you used in your project?
+41) What repositories you used in your project?
+42) CRUD vs JPA
+43) Other repositories
+44) How you communicate between services
+45) Why you need logging? What logging tools you used?
+46) API versioning
+47) How did you manage shared configuration? Why do we need shared configuration?
+48) Microservices architecture you used
+49) How to allow CORS in your project?
+50) @CrossOrigin: What will happen if we do not use it?
+51) What does is cross-origin restrict? Why we need to use it(csrf)?
+52) @Query what does it do
+53) How can you differentiate between native query and jpql query while writing a query using @Query
+54) which one to used to best?
+55) in jpql we only query entities
+56) JPQL and SQL queries(DDL, DML, DCL)
+57) Springboot starters(Web, Test)
+58) Springboot vs Spring
+59) ComponentScan vs EnableAutoConfiguration
+60) What are HTTP methods
+61) PUT vs PATCH
+62) Actuators
+63) Springboot profiling
+64) What is autowiring(@autowired)?
+65) @Qualifier
+66) @primary
+67) Constructor based vs Setter based injection. How can you achieve it apart from @autowired?
+68) How can you achieve contructor injection without using @autowired over the constructor?- @requiredargsconstructor
+69) Can we use @RequiredArgs , @NoArgs and @Allargs constructor together?
+70) ALL and required can be together, no and all, no and required can not be used together
+71) @Data
+72) Hashcode and equals contract
+73) HashMap internal working
+74) Method overloading and method overriding
+75) Records
+76) What is entity?
+77) Types of keys
+78) Types of constraint?
+79) Immutable classes. How can you create them?
+89) Optional
+90) Of Vs OfNullable
+91) SOLID
+92) Can we use non-static field in singleton(No)? Why?
+93) JVM and Architecture of JVM
+94) Class Loader
+95) Custom annotations
+96) Load balancing
+97) Circuit Breaker
+98) API Gateway
+99) Each dependency in your project
+100) What was added in string in Java 11?(strip)
+101) POST and PUT method in project and flow in project.
+102) Volatile keyword in multithreading.
+103) Execute how to work with classes.
+104) JWT token format(bcrypt algorithm)
+105) Bearer
+106) MockMvc
+107) MockMvc.perform
+108) Why we use method references?
+109) Gradle
+110) checkout, push, pull, stash
+111) Where is the staging area located in your pc
+112) git ignore
+113) Richardson maturity model
+114) application.properties file
+115) mapping 
+116) one-one, what does mapped by do
+Sriganesh Sureshkumar
+Software Engineer
+ 
+40. uses of oops 
+39. 4 pillars of oops 
+38. collections- types in set 
+37. internal working of hashMap 
+36. comparator vs comparable 
+35. functional interfaces and types 
+34. uses of lambda expression 
+33. streams-- given a string freq of each characters -- sort acc to emp salary optional 
+32. use cases Design Patterns and Solid Principles 
+31. spring boot vs spring core 
+30. Spring boot annotations 
+29. spring data jpa --- find by pincode update api 
+28. Why are rest api stateless 
+27. Maven life cycle methods
+26. What are microservices 
+25. Horizontal vs Vertical scaling 
+24. Different ways in which microservices communicate with eachother 
+23. Different annotations in junit
+22. Mockito spy vs mock 
+21. Executor framework 
+20. Types of threadpool
+19. Copy Constructor
+18. instiatization and initialization
+17. Code snippets static, overloading and overriding
+16. Constructor snippets
+15. Feign client 5 uses and  code snippets
+14. Multithreading uses and benefits assertEquals and assertSame 
+13. Singleton and Liskov Patterns 
+12. Threads problem snippet (very big snippet)
+11. Loggers class and which implements class 
+10. git commands
+9. maven 
+8. Collections resizing and capacity
+7. Spring security
+6. Controllers POST mapping
+5. Try with resources
+4. Method references
+3. Lambda Expressions 
+2. Static/Dynamic binding
+ 
+1. var lisOflist=List.of(ArrayList<>("aditya","shivani"), List.of("Aditya","Shivani));
+Ans: 
+vimport java.util.*;
+import java.util.stream.*;
+ 
+public class WordFrequency {
+    public static void main(String[] args) {
+        var listOfList = List.of(
+            new ArrayList<>(List.of("aditya", "shivani")),
+            List.of("Aditya", "Shivani")
+        );
+ 
+        Map frequencyMap = listOfList.stream()
+            .flatMap(List::stream)                  // Flatten the list
+            .map(String::toLowerCase)               // Optional: ignore case
+            .collect(Collectors.groupingBy(         // Group and count
+                word -> word,
+                Collectors.counting()
+            ));
+ 
+        System.out.println(frequencyMap);
+    }
+}
+ 
