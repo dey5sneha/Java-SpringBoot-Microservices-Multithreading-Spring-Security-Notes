@@ -1,37 +1,37 @@
-How to create a immutable class in java?
-How many ways to create a object?
-compileTimePolymorphism and RunTimePolymorphism?
-can we change return type of overloading method?
-FunctionInterface having single abstract method?
-
-Q. Why default method and where to use it?
-Answer: Before Java 8+, adding new methods to an interface broke all implementing classes, but the presence of default methods allow adding new methods to the interfaces without 
+1) How to create a immutable class in java?
+2) How many ways to create a object?
+3) CompileTimePolymorphism and RunTimePolymorphism?
+4) Can we change return type of overloading method?
+5) FunctionInterface having single abstract method?
+6) Why default method and where to use it?
+Answer: 
+Before Java 8+, adding new methods to an interface broke all implementing classes, but the presence of default methods allow adding new methods to the interfaces without 
 breaking the existing behavior of the implementing classes(Backward Compatibility).
-
-Q. Insertion order and doesn't allow duplicates -> which collection will you prefer?
-Answer: LinkedHashSet because it maintains insertion order, doesn't allow duplicates and TC of add/search/remove is O(1) in average.
-
-Q. What is difference between StringBuilder and StringBuffer and why it was introduced ?
-Answer: StringBuilder vs StringBuffer in Java
+7) Insertion order and doesn't allow duplicates -> which collection will you prefer?
+Answer: 
+LinkedHashSet because it maintains insertion order, doesn't allow duplicates and TC of add/search/remove is O(1) in average.
+8) What is difference between StringBuilder and StringBuffer and why it was introduced ?
+Answer: 
+StringBuilder vs StringBuffer in Java
 Aspect	          StringBuffer	                            StringBuilder
 Thread Safety	    Synchronized (Thread-Safe)	              Not Synchronized (Not Thread-Safe)
 Performance	      Slower (due to synchronization overhead)	Faster (no synchronization)
 Introduced In	    Java 1.0	                                Java 1.5 (Java 5)
 Use Case	        Multi-threaded environments	              Single-threaded environments
-
-Why was StringBuilder introduced?
+9) Why was StringBuilder introduced?
+Answer:
 StringBuffer synchronizes every method (like append(), insert(), etc.), which impacts performance in single-threaded contexts.
 To improve performance for non-thread-safe (single-threaded) operations, StringBuilder was introduced as a faster alternative without synchronization overhead.
-
-How string constant pool works
-Features of java 8 to java 21 with example
-Thread Executer framework
-Threading scenario-based questions
-SOLID principle with example
-Serialization and Deserialization
-Volatile, transit and atomic
-Collection framework interfaces and implementation
-How concurrent HashMap works internally
+10) How string constant pool works
+11) Features of java 8 to java 21 with example
+12) Thread Executer framework
+13) Threading scenario-based questions
+14) SOLID principle with example
+15) Serialization and Deserialization
+Marker Interface: Serialization doesnot have any methods, so it is used as a marker for serialization.
+16) Volatile, transient and atomic
+17) Collection framework interfaces and implementation
+18) How concurrent HashMap works internally
 When to use Weak HashMap
 Design patterns in details (Singleton, Builder, Façade and Flyweight design pattern)
 What is difference between Interface and Abstract class after introducing default, static and private methods in interface
