@@ -48,123 +48,114 @@ Java Basics and OOPs Concepts:
 37) What is the purpose of this keyword in Java?
  
 Java 8 and Functional Programming:
-What is a Lambda Expression?
-Can we throw an exception in Lambda Expression?
-Functional Interfaces
-Consumer
-Supplier
-Function
-Predicate
-Stream Intermediate vs Terminal Operations
-Lazy Loading in Streams
-What is Effective Final in Lambda Expressions?
-Reduce Operation in Stream
-Do you know about Parallel Stream?
-Optional Class and Its Methods
-Empty Method in Optional
-Streams Coding Example: Filter Even IDs from Person Objects
-Streams: Employee Stream Example (Limit, Filter, and ForEach)
-What is a Method Reference in Java 8?
-What are the differences between map() and flatMap() in Streams?
-What is the difference between collect() and reduce() in streams?
-What is a Supplier in functional programming?
-What is the purpose of Optional class in Java 8?
-What is peek() method in streams?
+1) What is a Lambda Expression?
+2) Can we throw an exception in Lambda Expression?
+3) Functional Interfaces: Consumer, Supplier, Function, Predicate
+4) Stream Intermediate vs Terminal Operations
+5) Lazy Loading in Streams
+6) What is Effective Final in Lambda Expressions?
+7) Reduce Operation in Stream
+8) Do you know about Parallel Stream?
+9) Optional Class and Its Methods
+10) Empty Method in Optional
+11) Streams Coding Example: Filter Even IDs from Person Objects
+12) Streams: Employee Stream Example (Limit, Filter, and ForEach)
+13) What is a Method Reference in Java 8?
+14) What are the differences between map() and flatMap() in Streams?
+15) What is the difference between collect() and reduce() in streams?
+16) What is a Supplier in functional programming?
+17) What is the purpose of Optional class in Java 8?
+18) What is peek() method in streams?
  
-Spring Framework
+Spring Framework:
+1) What is the Spring Framework and its core features?
+2) What is the difference between @Autowired and @Inject in Spring?
+3) What is Spring IoC container?
+4) What is a Spring Bean and what are the different scopes of Spring Beans?
+5) How do you handle transactions in Spring?
+6) Explain the different types of Spring Beans and their lifecycle.
+7) What are Spring Profiles and how do you use them?
+8) What are Design Patterns? (Facade, Factory, Singleton, Strategy)
+9) What is Circular Dependency in Spring and how to resolve it (@Lazy)?
+10) Advice, Aspect, and Types of Aspects
+11) What is PostConstruct and PreDestroy in Spring?
+12) Spring Security Basics
+13) Spring Boot: Architecture
+14) @Bean, @Service, @Controller, @Component: Which is best?
+15) @Data, @NoArgsConstructor, @AllArgsConstructor
+16) Bean Lifecycle in Spring
+17) Spring Boot: Actuator
+18) What is Actuator in Spring Boot Application?
+19) Endpoints of Actuator
+20) What is @PropertySource in Spring?
+21) ApplicationContext: XML-based Configuration vs Annotation-based Configuration
+22) Spring Boot and Version Management
+23) Spring Boot: Request Mapping -> Controller -> Service -> Repository -> Database
+24) What is @RestControllerAdvice?
+25) Dependency Inversion Principle in Spring
  
-What is the Spring Framework and its core features?
-What is the difference between @Autowired and @Inject in Spring?
-What is Spring IoC container?
-What is a Spring Bean and what are the different scopes of Spring Beans?
-How do you handle transactions in Spring?
-Explain the different types of Spring Beans and their lifecycle.
-What are Spring Profiles and how do you use them?
-What are Design Patterns? (Facade, Factory, Singleton, Strategy)
-What is Circular Dependency in Spring and how to resolve it (@Lazy)?
-Advice, Aspect, and Types of Aspects
-What is PostConstruct and PreDestroy in Spring?
-Spring Security Basics
-Spring Boot: Architecture
-@Bean, @Service, @Controller, @Component: Which is best?
-@Data, @NoArgsConstructor, @AllArgsConstructor
-Bean Lifecycle in Spring
-Spring Boot: Actuator
-What is Actuator in Spring Boot Application?
-Endpoints of Actuator
-What is @PropertySource in Spring?
-ApplicationContext: XML-based Configuration vs Annotation-based Configuration
-Spring Boot and Version Management
-Spring Boot: Request Mapping -> Controller -> Service -> Repository -> Database
-What is @RestControllerAdvice?
-Dependency Inversion Principle in Spring
- 
-Spring Boot and REST APIs
- 
-What is the difference between @Controller and @RestController in Spring MVC?
-How does Spring Boot handle exceptions in REST APIs?
-What is the role of the @EnableAutoConfiguration annotation in Spring Boot?
-What is Spring Boot starter?
-What are @RequestMapping and @ResponseBody annotations used for in Spring Boot?
-How can you manage configuration properties in Spring Boot?
-What is Spring Boot's auto-configuration mechanism?
-How does Spring Boot handle validation and binding errors?
-What are the advantages of using @RestControllerAdvice in Spring Boot?
-Why Functional Interface has only 1 Abstract Method in Spring Boot?
-What is Idempotent in REST APIs?
-Statelessness in REST APIs
-How to Custom Annotations Work and Target/Retention?
-REST APIs: RequestMapping, PathVariable vs RequestParams
-What is Idempotent API?
-Fail Fast vs Fail Safe Iterators
-Authentication and Authorization in Spring Security
-Microservices: Basics
-Exception Handling in REST APIs
-Spring Boot: Request -> Service -> Repository -> Database Flow
-What is @Bean vs @Service and @Controller?
+Spring Boot and REST APIs:
+1) What is the difference between @Controller and @RestController in Spring MVC?
+2) How does Spring Boot handle exceptions in REST APIs?
+3) What is the role of the @EnableAutoConfiguration annotation in Spring Boot?
+4) What is Spring Boot starter?
+5) What are @RequestMapping and @ResponseBody annotations used for in Spring Boot?
+6) How can you manage configuration properties in Spring Boot?
+7) What is Spring Boot's auto-configuration mechanism?
+8) How does Spring Boot handle validation and binding errors?
+9) What are the advantages of using @RestControllerAdvice in Spring Boot?
+10) Why Functional Interface has only 1 Abstract Method in Spring Boot?
+11) What is Idempotent in REST APIs?
+12) Statelessness in REST APIs
+13) How to Custom Annotations Work and Target/Retention?
+14) REST APIs: RequestMapping, PathVariable vs RequestParams
+15) What is Idempotent API?
+16) Fail Fast vs Fail Safe Iterators
+17) Authentication and Authorization in Spring Security
+18) Microservices: Basics
+19) Exception Handling in REST APIs
+20) Spring Boot: Request -> Service -> Repository -> Database Flow
+21) What is @Bean vs @Service and @Controller?
   
-Collection Framework and Data Structures
-
-AbstractList
-LinkedList Behavior
-ArrayList vs LinkedList
-Deque vs LinkedList Difference
-HashSet, Vector (Usage and Working)
-Comparator vs Comparable
-Collections vs Collection
-Fail Fast vs Fail Safe Iterators
-Concurrent Modification Exception
-Copy Constructor in Collection Framework
-Why does HashCode and Equals Matter in HashMap?
+Collection Framework and Data Structures:
+1) AbstractList
+2) LinkedList Behavior
+3) ArrayList vs LinkedList
+4) Deque vs LinkedList Difference
+5) HashSet, Vector (Usage and Working)
+6) Comparator vs Comparable
+7) Collections vs Collection
+8) Fail Fast vs Fail Safe Iterators
+9) Concurrent Modification Exception
+10) Copy Constructor in Collection Framework
+11) Why does HashCode and Equals Matter in HashMap?
  
-Advanced Java Topics
+Advanced Java Topics:
+1) Garbage Collection in Java: Mark and Sweep Algorithm
+2) Reflection in Java
+3) What is the use of Default Method in Functional Interface?
+4) Logging in Java: Levels and Types of Logging
+5) ACID Properties in SQL
+6) Exception Handling (Multi-catch blocks, Try-Catch, and Finally)
+7) What is Serialization and Deserialization?
+8) Thread Safety and Synchronization
+9) What is Concurrent Modification Exception?
  
-Garbage Collection in Java: Mark and Sweep Algorithm
-Reflection in Java
-What is the use of Default Method in Functional Interface?
-Logging in Java: Levels and Types of Logging
-ACID Properties in SQL
-Exception Handling (Multi-catch blocks, Try-Catch, and Finally)
-What is Serialization and Deserialization?
-Thread Safety and Synchronization
-What is Concurrent Modification Exception?
+Testing and Mocking:
+1) Mockito: How it Helps in Unit Testing?
+2) Junit Annotations and Methods
+3) BeforeAll vs BeforeEach
+4) Mockito – How it Helps
+5) Test-Driven Development (TDD)
+6) JUnit: Unit Testing in Java
+7) Mockito: Mocking Dependencies in Unit Tests
  
-Testing and Mocking
- 
-Mockito: How it Helps in Unit Testing?
-Junit Annotations and Methods
-BeforeAll vs BeforeEach
-Mockito – How it Helps
-Test-Driven Development (TDD)
-JUnit: Unit Testing in Java
-Mockito: Mocking Dependencies in Unit Tests
- 
-Marker Interfaces and Why to Use Them?
-Immutable Classes in Java
-What is the use of @Around in Spring AOP?
-Spring AOP Basics
-What is the Difference Between Static Block and Instance Block?
-Different Life Cycle Phases in Maven
+1) Marker Interfaces and Why to Use Them?
+2) Immutable Classes in Java
+3) What is the use of @Around in Spring AOP?
+4) Spring AOP Basics
+5) What is the Difference Between Static Block and Instance Block?
+6) Different Life Cycle Phases in Maven
 
 Streams:
 1. Find and print the sum of all even numbers in a list of integers.
@@ -212,15 +203,20 @@ Streams:
 44. Implement a Java Stream that filters a list of timestamps (Long type), removing any that are from the previous month.
 45. Use Java Streams to split a list of numbers into two lists: one containing multiples of 3, and the other containing all other numbers.
  
-Executor Framework 
-Need of security 
-Generate Validate JWT 
-stream fi lambda customeFI Collectors'' pattern principle with example real scenario based question Mocking with MVC MockBean mock- endpoint perform
- 
-Volatile vs AtomicInteger
-ThreadLocal
-[5/16, 12:45] Sneha Dey: jaise how to configure eureka
-[5/16, 12:45] Sneha Dey: why do we need it
+1) Executor Framework 
+2) Need of security 
+3) Generate Validate JWT 
+4) Functinal Interface
+5) Lambda 
+6) Custom Functional Interface 
+7) Collectors 
+8) Design patterns principle with example real scenario based question 
+9) Mocking with MVC MockBean mock- endpoint perform
+10) Volatile vs AtomicInteger
+11) ThreadLocal
+12) How to configure Eureka
+13) Why do we need it
+
 [5/16, 12:46] Sneha Dey: how load balancer works...(Round Robin aur kuch b algos hote h)
 [5/16, 12:47] Sneha Dey: and then jitna sb tha client server registry locad balancer kya hota hai kasie krte hai
 [5/16, 12:47] Sneha Dey: and kaise ek service ko dusre se connect krana
@@ -1391,4 +1387,5 @@ public class WordFrequency {
 }
 
  
+
 
