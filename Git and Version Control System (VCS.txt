@@ -1,60 +1,53 @@
-Git and Version Control System (VCS)
-
-Why VCS?
-What is Git?
-Git Commands
-git branch
-git
-
-Why Functional Interface has only 1 Abstract Method?
-Versioning in Spring Boot
-Failfast vs FailSafe Iterators
-Why is version control important in software development?
+1) Git and Version Control System (VCS)
+2) Why VCS?
+3) What is Git?
+4) Git Commands
+5) git branch
+6) Why Functional Interface has only one Abstract Method?
+7) Versioning in Spring Boot
+8) Failfast vs FailSafe Iterators
+9) Why is version control important in software development?
  
-Java Basics and OOPs Concepts
+Java Basics and OOPs Concepts: 
+1) What is OOPS?
+2) Why OOPS?
+3) Class and Object
+4) Primitive Data Types vs Wrapper Classes
+5) Overloading and Overriding
+6) Method Overloading vs Method Overriding
+7) Polymorphism, Inheritance, and Interfaces
+8) Abstract Classes vs Interfaces
+9) Data Hiding and Abstraction
+10) Object Cloning and Copy Constructor: Shallow vs Deep Copy
+11) Covariant Return Type
+12) String, StringBuffer, StringBuilder
+13) String Intern Keyword and String Pool
+14) Can you overload a main method?
+15) Method Hiding and Variable Hiding
+16) Composition vs Inheritance
+17) Checked and Unchecked Exceptions
+18) Unchecked Exceptions vs Errors
+19) Exception Handling
+20) Checked and Unchecked Exceptions: Which are recoverable?
+21) Exception Propagation
+22) Exception Chaining
+23) Equals and HashCode Methods
+24) What is the use of this and super keywords?
+25) Constructor (This Keyword, Parameterized Constructor, Need of Constructor)
+26) Static vs Final
+27) Constructor Overloading and Constructor Coding
+28) Wrapper Classes: Autoboxing and Unboxing
+29) What are Wrapper Classes?
+30) Static Block: When static and non-static methods are in the main method, which method will compile first?
+31) Transient vs Static
+32) The this and super() in Constructor
+33) What is the purpose of super keyword in Java?
+34) What is the difference between ArrayList and LinkedList?
+35) What is the difference between String and StringBuilder?
+36) Can you explain what the Java memory model is?
+37) What is the purpose of this keyword in Java?
  
-What is OOPS?
-Why OOPS?
-Class and Object
-Primitive Data Types vs Wrapper Classes
-Overloading and Overriding
-Method Overloading vs Method Overriding
-Polymorphism, Inheritance, and Interfaces
-Inheritance
-Abstract Classes vs Interfaces
-Data Hiding and Abstraction
-Object Cloning and Copy Constructor: Shallow vs Deep Copy
-Covariant Return Type
-String, StringBuffer, StringBuilder
-String Intern Keyword and String Pool
-Can you overload a main method?
-Method Hiding and Variable Hiding
-Composition vs Inheritance
-Checked and Unchecked Exceptions
-Unchecked Exceptions vs Errors
-Exception Handling
-Checked and Unchecked Exceptions: Which are recoverable?
-Exception Propagation
-Exception Chaining
-Equals and HashCode Methods
-What is the use of this and super keywords?
-Constructor (This Keyword, Parameterized Constructor, Need of Constructor)
-Static vs Final
-Final vs Static Keywords
-Constructor Overloading and Constructor Coding
-Wrapper Classes: Autoboxing and Unboxing
-What are Wrapper Classes?
-Static Block: When static and non-static methods are in the main method, which method will compile first?
-Transient vs Static
-The this and super() in Constructor
-What is the purpose of super keyword in Java?
-What is the difference between ArrayList and LinkedList?
-What is the difference between String and StringBuilder?
-Can you explain what the Java memory model is?
-What is the purpose of this keyword in Java?
- 
-Java 8 and Functional Programming
- 
+Java 8 and Functional Programming:
 What is a Lambda Expression?
 Can we throw an exception in Lambda Expression?
 Functional Interfaces
@@ -1398,3 +1391,4 @@ public class WordFrequency {
 }
 
  
+
