@@ -216,8 +216,7 @@ Streams:
 11) ThreadLocal
 12) How to configure Eureka
 13) Why do we need it
-
-[5/16, 12:46] Sneha Dey: how load balancer works...(Round Robin aur kuch b algos hote h)
+14) How load balancer works?
 [5/16, 12:47] Sneha Dey: and then jitna sb tha client server registry locad balancer kya hota hai kasie krte hai
 [5/16, 12:47] Sneha Dey: and kaise ek service ko dusre se connect krana
 [5/16, 13:22] Sneha Dey: Concurrency vs parallelism
@@ -1387,5 +1386,6 @@ public class WordFrequency {
 }
 
  
+
 
 
