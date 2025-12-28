@@ -1385,7 +1385,8 @@ public class WordFrequency {
     }
 }
 
- 
+Difference between synchronised and non-synchronised. 
+
 
 
 
