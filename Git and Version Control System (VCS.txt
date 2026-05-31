@@ -1459,6 +1459,3 @@ Indexing in SQL
 Partition of table in SQL
 How to fix slow query execution scenario based on performance tunning
 @Scheduled and Shedlock
-
-
-
