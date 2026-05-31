@@ -1,4 +1,4 @@
-1) Git and Version Control System (VCS)
+✅ Git and Version Control System (VCS)
 2) Why VCS?
 3) What is Git?
 4) Git Commands
@@ -1458,4 +1458,4 @@ Pagination using JPA
 Indexing in SQL
 Partition of table in SQL
 How to fix slow query execution scenario based on performance tunning
-@Scheduled and Shedlock
+✅ @Scheduled and Shedlock
