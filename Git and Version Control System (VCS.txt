@@ -1,5 +1,5 @@
 ✅ Git and Version Control System (VCS)
-2) Why VCS?
+✅ Why VCS?
 3) What is Git?
 4) Git Commands
 5) git branch
